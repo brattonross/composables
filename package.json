@@ -6,7 +6,8 @@
     "name": "Ross Bratton",
     "url": "https://github.com/brattonross"
   },
-  "private": true,
+  "license": "MIT",
+  "files": ["dist"],
   "peerDependencies": {
     "vue": "3.0.0-alpha.2"
   },
@@ -23,7 +24,6 @@
     "eslint-plugin-vue": "^6.1.2",
     "execa": "^4.0.0",
     "jest": "^25.1.0",
-    "lerna": "^3.20.2",
     "prettier": "^1.19.1",
     "rollup": "^1.29.1",
     "rollup-plugin-typescript2": "^0.25.3",
@@ -32,7 +32,7 @@
     "vue": "3.0.0-alpha.2"
   },
   "scripts": {
-    "build": "node ./scripts/build.js",
+    "build": "rollup -c",
     "test": "jest"
   }
 }

@@ -1,5 +1,5 @@
 import { isRef } from 'vue'
-import useCounter from '../lib'
+import useCounter from '..'
 
 describe('useCounter', () => {
   it('should return a ref of the current count', () => {

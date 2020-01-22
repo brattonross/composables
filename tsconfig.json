@@ -12,6 +12,6 @@
     "types": ["jest", "node"],
     "declaration": true
   },
-  "include": ["packages"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }

@@ -3,6 +3,6 @@ module.exports = {
   rootDir: __dirname,
   watchPathIgnorePatterns: ['/node_modules/'],
   moduleFileExtensions: ['ts', 'js'],
-  testMatch: ['<rootDir>/packages/**/__tests__/**/*spec.[jt]s'],
+  testMatch: ['<rootDir>/src/**/__tests__/**/*spec.[jt]s'],
   testPathIgnorePatterns: ['/node_modules/']
 }
