@@ -9,12 +9,9 @@
     "noImplicitAny": true,
     "noImplicitThis": true,
     "esModuleInterop": true,
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "declaration": true
   },
-  "include": [
-    "packages"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["packages"],
+  "exclude": ["node_modules"]
 }
