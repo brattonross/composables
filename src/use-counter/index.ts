@@ -1,6 +1,14 @@
-import { ref } from 'vue'
+import { ref, Ref } from 'vue'
 
-export default function useCounter(initialValue = 0) {
+interface CounterContext {
+  count: Ref<number>
+  increment: (step?: number) => void
+  decrement: (step?: number) => void
+  set: (value: number) => void
+  reset: () => void
+}
+
+export default function useCounter(initialValue = 0): CounterContext {
   const count = ref(initialValue)
 
   function increment(step = 1) {

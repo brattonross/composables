@@ -36,5 +36,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
+  },
+  "dependencies": {
+    "@yarnpkg/pnpify": "^2.0.0-rc.16"
   }
 }
